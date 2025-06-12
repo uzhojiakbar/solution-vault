@@ -27,8 +27,11 @@ leetcode/uz/
 ├── 7/                  # Reverse Integer
 │   ├── 7.js
 │   └── README.md
-└── 8/                  # String to Integer (atoi)
-    ├── 8.js
+├── 8/                  # String to Integer (atoi)
+│   ├── 8.js
+│   └── README.md
+└── 9/                  # Palindrome Number
+    ├── 9.js
     └── README.md
 ```
 
@@ -70,6 +73,11 @@ leetcode/uz/
    - String ni 32-bitli butun songa o'zgartirish
    - Ikkita yechim: Number.parseInt() va Har bir harfni tekshirish
    - [Yechim kodi](8/8.js)
+
+9. [Palindrome Number](9/README.md)
+   - Son palindrom ekanligini tekshirish
+   - Uchta yechim: String konvertatsiya, Ikkita loop va Massiv operatsiyalari
+   - [Yechim kodi](9/9.js)
 
 ## Har bir Masala Uchun
 
