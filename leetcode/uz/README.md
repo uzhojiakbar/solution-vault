@@ -24,8 +24,11 @@ leetcode/uz/
 ├── 6/                  # Zigzag Conversion
 │   ├── 6.js
 │   └── README.md
-└── 7/                  # Reverse Integer
-    ├── 7.js
+├── 7/                  # Reverse Integer
+│   ├── 7.js
+│   └── README.md
+└── 8/                  # String to Integer (atoi)
+    ├── 8.js
     └── README.md
 ```
 
@@ -62,6 +65,11 @@ leetcode/uz/
    - 32-bitli butun sonni teskari yozish
    - String konvertatsiya yordamida yechim
    - [Yechim kodi](7/7.js)
+
+8. [String to Integer (atoi)](8/README.md)
+   - String ni 32-bitli butun songa o'zgartirish
+   - Ikkita yechim: Number.parseInt() va Har bir harfni tekshirish
+   - [Yechim kodi](8/8.js)
 
 ## Har bir Masala Uchun
 
