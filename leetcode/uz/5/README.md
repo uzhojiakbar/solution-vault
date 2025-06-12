@@ -1,15 +1,19 @@
 # Eng Uzun Palindrom Qator Masalasi
 
 ## Masala Sharti
+
 Berilgan `s` satridan eng uzun palindrom qatorni topish kerak. Palindrom - bu o'ngdan ham, chapdan ham bir xil o'qiladigan so'z yoki qator.
 
 ### Kirish Ma'lumotlari
+
 - `s`: String tipidagi matn
 
 ### Chiqish Ma'lumotlari
+
 - Eng uzun palindrom qator
 
 ### Misollar
+
 ```
 Input: s = "babad"
 Output: "bab"
@@ -22,14 +26,17 @@ Output: "bb"
 ## Yechimlar
 
 ### 1. Barcha Mumkin Bo'lgan Qatorlarni Tekshirish
+
 Bu yechimda biz barcha mumkin bo'lgan qatorlarni tekshiramiz va ular orasidan eng uzun palindromni topamiz.
 
 #### Algoritm:
+
 1. Palindrom tekshiruvchi funksiya yaratamiz
 2. Barcha mumkin bo'lgan qatorlarni tekshiramiz
 3. Eng uzun palindromni saqlaymiz
 
 #### Kodlar:
+
 ```javascript
 var longestPalindrome = function (s) {
   const IsPalindrome = (text) => {
@@ -60,19 +67,23 @@ var longestPalindrome = function (s) {
 ```
 
 #### Murakkablik:
+
 - Vaqt murakkabligi: O(n³), bu yerda n - matn uzunligi
 - Xotire murakkabligi: O(1)
 
 ### 2. Markazdan Kengaytirish Yordamida Yechim
+
 Bu yechimda biz har bir harfni potensial markaz sifatida ko'rib chiqamiz va undan kengaytirib boramiz.
 
 #### Algoritm:
+
 1. Har bir harf uchun:
    - Toq uzunlikdagi palindromni tekshiramiz (markaz - bitta harf)
    - Juft uzunlikdagi palindromni tekshiramiz (markaz - ikkita harf)
 2. Eng uzun palindromni saqlaymiz
 
 #### Kodlar:
+
 ```javascript
 var longestPalindrome = function (s) {
   if (s.length < 1) return "";
@@ -107,11 +118,14 @@ var longestPalindrome = function (s) {
 ```
 
 #### Murakkablik:
+
 - Vaqt murakkabligi: O(n²), bu yerda n - matn uzunligi
 - Xotire murakkabligi: O(1)
 
 ### Yechimlarni Taqqoslash
+
 1. Birinchi yechim:
+
    - Barcha mumkin bo'lgan qatorlarni tekshiradi
    - Vaqt murakkabligi yuqori (O(n³))
    - Katta matnlar uchun Time Limit xatoligini beradi
