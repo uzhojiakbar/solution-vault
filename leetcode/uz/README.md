@@ -21,8 +21,11 @@ leetcode/uz/
 ├── 5/                  # Longest Palindromic Substring
 │   ├── 5.js
 │   └── README.md
-└── 6/                  # Zigzag Conversion
-    ├── 6.js
+├── 6/                  # Zigzag Conversion
+│   ├── 6.js
+│   └── README.md
+└── 7/                  # Reverse Integer
+    ├── 7.js
     └── README.md
 ```
 
@@ -54,6 +57,11 @@ leetcode/uz/
    - Matnni zigzag ko'rinishda yozish va qator bo'yicha o'qish
    - Qatorlar massivi yordamida yechim
    - [Yechim kodi](6/6.js)
+
+7. [Reverse Integer](7/README.md)
+   - 32-bitli butun sonni teskari yozish
+   - String konvertatsiya yordamida yechim
+   - [Yechim kodi](7/7.js)
 
 ## Har bir Masala Uchun
 
