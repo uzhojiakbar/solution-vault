@@ -9,7 +9,7 @@ leetcode/uz/
 ├── 1/                  # Two Sum masalasi
 │   ├── 1.js           # Yechim kodi
 │   └── README.md      # Masala tushuntirishi
-├── 2/                  # Longest Substring Without Repeating Characters
+├── 2/                  # In Progress
 │   ├── 2.js
 │   └── README.md
 ├── 3/                  # Longest Substring Without Repeating Characters
@@ -18,8 +18,11 @@ leetcode/uz/
 ├── 4/                  # Median of Two Sorted Arrays
 │   ├── 4.js
 │   └── README.md
-└── 5/                  # Longest Palindromic Substring
-    ├── 5.js
+├── 5/                  # Longest Palindromic Substring
+│   ├── 5.js
+│   └── README.md
+└── 6/                  # Zigzag Conversion
+    ├── 6.js
     └── README.md
 ```
 
@@ -30,10 +33,7 @@ leetcode/uz/
    - Ikkita yechim: Brute Force va Hash Map
    - [Yechim kodi](1/1.js)
 
-2. [Longest Substring Without Repeating Characters](2/README.md)
-   - Eng uzun takrorlanmas qatorni topish
-   - Sliding Window texnikasi yordamida yechim
-   - [Yechim kodi](2/2.js)
+2. [In Progress...](2/README.md)
 
 3. [Longest Substring Without Repeating Characters](3/README.md)
    - Eng uzun takrorlanmas qatorni topish
@@ -49,6 +49,11 @@ leetcode/uz/
    - Eng uzun palindrom qatorni topish
    - Ikkita yechim: Brute Force va Markazdan Kengaytirish
    - [Yechim kodi](5/5.js)
+
+6. [Zigzag Conversion](6/README.md)
+   - Matnni zigzag ko'rinishda yozish va qator bo'yicha o'qish
+   - Qatorlar massivi yordamida yechim
+   - [Yechim kodi](6/6.js)
 
 ## Har bir Masala Uchun
 
@@ -78,4 +83,4 @@ Bu yechimlar [LeetCode](https://leetcode.com) platformasidan olingan.
 
 ## Qo'shimcha Ma'lumot
 
-Har bir masala uchun batafsil ma'lumot olish uchun tegishli papkadagi `README.md` faylini ko'rib chiqing. Yechimlar va tushuntirishlar o'zbek tilida keltirilgan. 
+Har bir masala uchun batafsil ma'lumot olish uchun tegishli papkadagi `README.md` faylini ko'rib chiqing. Yechimlar va tushuntirishlar o'zbek tilida keltirilgan.

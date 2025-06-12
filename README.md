@@ -1,5 +1,6 @@
 # 🧠 Algoritmik Masalalar Yechimlari
 
+
 Assalomu alaykum! Ushbu repozitoriyamda LeetCode, HackerRank, Codeforces va boshqa shu kabi platformalardan ishlagan masalalarimni joylab boraman.
 
 ## 📌 Maqsad
@@ -18,7 +19,11 @@ Masalalar quyidagi saytlar orqali olingan:
 - [HackerRank](https://www.hackerrank.com/)
 - [Codeforces](https://codeforces.com/)
 - [GeeksforGeeks](https://www.geeksforgeeks.org/)
-- (Va boshqa manbalar bo‘lishi mumkin)
+- (Keyinchalik boshqa manbalar bo‘lishi mumkin)
+
+## 🔥 Status
+
+Hozircha faqatgina leetcode platformasidan masalalar yechilmoqda.
 
 ## GitHub
 
